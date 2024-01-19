@@ -1,34 +1,10 @@
-========================================================================
-       CONSOLE APPLICATION : SimpleGLUT
-========================================================================
+Video Link: https://www.youtube.com/watch?v=o-k6lFzbSPA
 
+The following features are present:
 
-AppWizard has created this SimpleGLUT application for you.  
-
-This file contains a summary of what you will find in each of the files that
-make up your SimpleGLUT application.
-
-SimpleGLUT.dsp
-    This file (the project file) contains information at the project level and
-    is used to build a single project or subproject. Other users can share the
-    project (.dsp) file, but they should export the makefiles locally.
-
-SimpleGLUT.cpp
-    This is the main application source file.
-
-
-/////////////////////////////////////////////////////////////////////////////
-Other standard files:
-
-StdAfx.h, StdAfx.cpp
-    These files are used to build a precompiled header (PCH) file
-    named SimpleGLUT.pch and a precompiled types file named StdAfx.obj.
-
-
-/////////////////////////////////////////////////////////////////////////////
-Other notes:
-
-AppWizard uses "TODO:" to indicate parts of the source code you
-should add to or customize.
-
-/////////////////////////////////////////////////////////////////////////////
+Child parent hierarchy between torso and legs.
+Legs consist of two joints that rotate somewhat naturally trying to mimic a walking. (Using forward kinematics)
+Legs also move upwards at the start of every stride to prevent the moonwalk effect.
+The movement animation is dependant upon the xz velocity of the character.
+I added a backdrop and ground by loading a few textures.
+Everything is built upon assignment 1, so the trajectory can be defined like before through keyframes using multiple types of interpolation techniques.
